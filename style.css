@@ -5,3 +5,21 @@ background-color: dimgrey;
   font-weight: 100;
   font-style:normal;
 }
+
+h1,h2,h3{
+    color: black;
+     text-align:center;
+}
+p {
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+button{
+    border-color: rgb(94, 89, 89) ;
+    background-color: darkslategrey;
+}
+
+.home-header{
+    text-align: left;
+}
