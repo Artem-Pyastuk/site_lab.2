@@ -1,9 +1,10 @@
 body{
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
+font-family: "Roboto Mono", monospace;
+font-optical-sizing: auto;
 background-color: dimgrey;
-  font-weight: 100;
-  font-style:normal;
+font-weight: 100;
+font-style:normal;
+margin-left: 20px;
 }
 
 h1,h2,h3{
@@ -22,4 +23,16 @@ button{
 
 .home-header{
     text-align: left;
+}
+
+/* Навігаційне меню */
+ ul {
+    list-style:inside; /* Прибираємо маркери-крапки */
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+ li {
+    margin: 15px; /* Відступи між пунктами */
 }
