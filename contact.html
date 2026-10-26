@@ -28,7 +28,24 @@
         </div> 
     <main>
         <h2>З'явились запитання?</h2>
-        <p>Замовляйте дзвінок</p>
+        Замовляйте дзвінок
         <form action="#" method="post">
             <label for="phone">Введіть номер телефону:</label>
-<input placeholder="+380 (XX) XXX-XX-XX" required>
+<input type="tel" id="phone" name="phone" placeholder="+380 (XX) XXX-XX-XX" required>
+<br>
+        <button type="submit">Надіслати</button>
+</form>
+
+    <br><form action="#register" method="post">
+        <div>
+        <label for="usernick">Ім'я користувача:</label>
+        <input type="text" id="usernick" name="nickname" required>
+        </div>
+        <br>
+        <div>
+        <label for="userpass">Пароль (для реєстрації):</label>
+        <input type="password" id="userpass" name="password" required>
+        </div>
+        <button type="submit">Зареєструватися</button>
+    </form>
+</div>
